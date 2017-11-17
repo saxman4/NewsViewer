@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/news_sources"
+        android:id="@+id/news_sources">
+
+        <menu>
+            <item android:title="@string/cnn_news"
+                android:id="@+id/cnn_news"/>
+            <item android:title="@string/engadget_news"
+                android:id="@+id/engadget_news"/>
+            <item android:title="@string/ew_news"
+                android:id="@+id/ew_news"/>
+            <item android:title="@string/hacker_news"
+                android:id="@+id/hacker_news"/>
+            <item android:title="@string/mtv_news"
+                android:id="@+id/mtv_news"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings">
+
+        <menu>
+            <item
+                android:id="@+id/music1"
+                android:title="@string/radio1"/>
+            <item
+                android:id="@+id/music2"
+                android:title="@string/radio2"/>
+            <item
+                android:id="@+id/music3"
+                android:title="@string/radio3"/>
+            <item
+                android:id="@+id/music6"
+                android:title="@string/radio6"/>
+            <item
+                android:id="@+id/music_off"
+                android:title="@string/music_off" />
+        </menu>
+    </item>
+</menu>

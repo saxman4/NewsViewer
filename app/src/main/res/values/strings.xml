@@ -1,0 +1,37 @@
+<resources>
+    <string name="api_key">5b4515c85b79422781e3b4eecedb7b39</string>
+    <string name="app_name">NewsViewer</string>
+    <string name="cnn_news">CNN News</string>
+    <string name="cnn_web_service_url">https://newsapi.org/v1/articles?source=cnn</string>
+    <string name="connect_error">Unable to connect to news site</string>
+    <string name="engadget_news">Engadget News</string>
+    <string name="engadget_web_service_url">https://newsapi.org/v1/articles?source=engadget</string>
+    <string name="ew_news">EW News</string>
+    <string name="ew_web_service_url">https://newsapi.org/v1/articles?source=entertainment-weekly</string>
+    <string name="hacker_news">Hacker News</string>
+    <string name="hacker_web_service_url">https://newsapi.org/v1/articles?source=hacker-news</string>
+    <string name="invalid_url">Invalid URL</string>
+    <string name="mtv_news">MTV News</string>
+    <string name="mtv_web_service_url">https://newsapi.org/v1/articles?source=mtv-news</string>
+    <string name="music_on">music on</string>
+    <string name="music_off">music off</string>
+    <string name="news_sources">NEWS SOURCES</string>
+    <string name="radio_url">http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio2_mf_p</string>
+    <string name="read_error">Unable to read news data</string>
+    <string name="settings">SETTINGS</string>
+    <string name="title">%s</string>
+    <string name="radio_url1">http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_p</string>
+    <string name="radio1">BBC 1 - British rock</string>
+    <string name="radio_url2">http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio2_mf_p</string>
+    <string name="radio2">BBC 2 - rock</string>
+    <string name="radio_url3">http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio3_mf_p</string>
+    <string name="radio3">BBC 3 - classical</string>
+    <string name="radio_url4">http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p</string>
+    <string name="radio_url5">http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio5live_mf_p</string>
+    <string name="radio_url6">http://bbcmedia.ic.llnwd.net/stream/bbcmedia_6music_mf_p</string>
+    <string name="radio6">BBC 6 - rock</string>
+    <string name="radio_url7">http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1xtra_mf_p</string>
+    <string name="radio_url8">http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4extra_mf_p</string>
+    <string name="radio_url9">http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio5extra_mf_p</string>
+    <string name="radio_urla">http://bbcmedia.ic.llnwd.net/stream/bbcmedia_asianet_mf_p</string>
+</resources>
