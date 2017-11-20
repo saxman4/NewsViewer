@@ -6,6 +6,7 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
+import android.text.Html;
 import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -52,10 +53,9 @@ class NewsArrayAdapter extends ArrayAdapter<News> {
 
         //viewHolder.titleTextView.setText(day.title + "\n\n" + day.url + "\n");
 
-        String tempTitle = day.title;
-        tempTitle = tempTitle.replace("<em>", "");  // remove "<em>" tags from title
-        tempTitle = tempTitle.replace("</em>", "");
-        viewHolder.titleTextView.setText(tempTitle + "\n\n" + day.url + "\n");
+        // Use fromHtml ad LinkMovementMethd to replace long url text into clickable "link"
+        viewHolder.titleTextView.setText(Html.fromHtml(day.title + "<a href=" + day.url + ">" + " link" + "</a>" + "<br>"));
+        viewHolder.titleTextView.setMovementMethod(LinkMovementMethod.getInstance());
 
         return convertView; // return completed list item to display
     }
